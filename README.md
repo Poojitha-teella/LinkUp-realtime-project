@@ -66,7 +66,7 @@ LinkUp is a full-stack web application that combines real-time communication and
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Poojitha-teella/LinkUp-realtime-project.git
 cd linkup-realtime-project
 ```
 
@@ -85,6 +85,14 @@ npm install
 
 Create a `.env` file using `.env.example` as a reference and configure the required environment variables.
 
+```env
+PORT=4000
+MONGO_URI=mongodb://127.0.0.1:27017/pulseroom
+REDIS_URL=redis://127.0.0.1:6379
+JWT_SECRET=pulseroom_my_secret_2026
+CLIENT_URL=http://localhost:5173
+```
+
 ```bash
 npm run dev
 ```
@@ -102,6 +110,7 @@ npm run dev
 ```
 
 Frontend: http://localhost:5173
+
 
 ## Demo Flow
 
